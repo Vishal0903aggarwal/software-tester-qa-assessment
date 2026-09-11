@@ -1,43 +1,105 @@
+# Software Tester (QA) Assessment
 
-Software Tester (QA) Assessment
-Task Management Application
-This repository contains my QA assessment for a Task Management Application.
+## Task Management Application
 
-Scope
-User Registration
+This repository contains my Software Tester (QA) assessment for a Task Management Application.
 
-User Login
+## Application Features Tested
 
-Create Task
+- User Registration
+- User Login
+- Create Task
+- View Task List
+- Edit Task
+- Delete Task
+- Input Validation
+- Error Handling
 
-View Task List
+## Test Coverage
 
-Edit Task
+The test cases cover:
 
-Delete Task
+- Positive test scenarios
+- Negative test scenarios
+- Edge and boundary cases
+- Input validation
+- Error handling
+- Authentication
+- Authorization and security
+- Database persistence
+- Duplicate operations
 
-Input Validation
+## Testing Approach
 
-Error Handling
+Since the application is close to production release and there is no existing test documentation, testing is prioritized based on functionality and risk.
 
-Test Coverage
-The test cases include:
+### High Priority
 
-Positive scenarios
+- Registration and Login
+- Authentication and Session Management
+- Authorization
+- Task Creation
+- Task Editing
+- Task Deletion
+- Database Persistence
+- Data Security
 
-Negative scenarios
+### Medium Priority
 
-Edge/boundary cases
+- Input Validation
+- Error Handling
+- Boundary Value Testing
+- Task List Accuracy
+- Duplicate Operations
 
-Security/authorization checks
+### Low Priority
 
-Database persistence checks
+- UI Validation Messages
+- Empty States
+- Usability
+- Formatting and Minor UI Issues
 
-Files
-Software-Tester-QA-Assessment.xlsx — complete test cases, potential bugs/risk areas, and test approach.
+## Testing Types
 
-Testing Approach
-Because the application is close to production release and has no existing test documentation, I would prioritize authentication, authorization, database persistence, and CRUD functionality, followed by validation, error handling, boundary testing, regression, and usability.
+The following testing techniques are considered:
 
-Tester
-Vishal Aggarwal
+1. Functional Testing
+2. Positive Testing
+3. Negative Testing
+4. Boundary Value Testing
+5. Edge Case Testing
+6. Security Testing
+7. Integration Testing
+8. Regression Testing
+9. Usability Testing
+
+## Potential Risk Areas
+
+Some important risks considered during testing include:
+
+- Duplicate user registration
+- Unauthorized access to another user's tasks
+- Unauthorized editing or deletion of tasks
+- Insecure password handling
+- SQL Injection
+- Task data not persisting after refresh
+- Duplicate task creation
+- Application crash with invalid or oversized input
+- Accidental task deletion
+- Exposure of technical server/database errors
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `Software-Tester-QA-Assessment.xlsx` | Contains complete test cases, bug/risk analysis, and testing approach |
+
+## Tester
+
+**Vishal Aggarwal**
+
+---
+
+### Assessment Scope
+
+The assessment covers User Registration & Login, Task CRUD operations, Input Validation & Error Handling, and potential bugs/risk areas for a Task Management Application.
