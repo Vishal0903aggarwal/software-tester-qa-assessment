@@ -1,30 +1,43 @@
-# Software Tester (QA) Assessment
 
-## Project
+Software Tester (QA) Assessment
 Task Management Application
+This repository contains my QA assessment for a Task Management Application.
 
-## Tested Features
-- User Registration
-- User Login
-- Task Creation
-- Task Viewing
-- Task Editing
-- Task Deletion
-- Input Validation
-- Error Handling
+Scope
+User Registration
 
-## Testing Approach
-The assessment includes:
-- Positive testing
-- Negative testing
-- Boundary/edge case testing
-- Security testing
-- Data validation
-- Error handling
+User Login
 
-## Test Documentation
-- Test Cases
-- Bug/Risk Identification
+Create Task
 
-## Tester
+View Task List
+
+Edit Task
+
+Delete Task
+
+Input Validation
+
+Error Handling
+
+Test Coverage
+The test cases include:
+
+Positive scenarios
+
+Negative scenarios
+
+Edge/boundary cases
+
+Security/authorization checks
+
+Database persistence checks
+
+Files
+Software-Tester-QA-Assessment.xlsx — complete test cases, potential bugs/risk areas, and test approach.
+
+Testing Approach
+Because the application is close to production release and has no existing test documentation, I would prioritize authentication, authorization, database persistence, and CRUD functionality, followed by validation, error handling, boundary testing, regression, and usability.
+
+Tester
 Vishal Aggarwal
